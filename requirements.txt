@@ -1,0 +1,22 @@
+# Core data processing
+pandas
+numpy
+
+# Visualization libraries
+matplotlib
+seaborn
+plotly
+
+# Data analysis and profiling
+scipy
+
+# File handling
+openpyxl # For Excel files
+xlrd      # For older Excel files
+
+# Optional: Advanced profiling (uncomment if needed)
+ydata-profiling
+
+# Development and testing
+pytest
+jupyter

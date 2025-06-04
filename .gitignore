@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment variables or config files
+.env
+*.env
+
+# Output folders
+outputs/
+!outputs/.gitkeep  # keep folder structure if needed
+
+# Sample data (if not tracked)
+sample_data/*.csv
+
+# Logs and temp files
