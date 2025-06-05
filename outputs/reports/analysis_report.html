@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Automated Data Analysis Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+                .header { background: #f4f4f4; padding: 20px; border-radius: 5px; }
+                .insight { background: #e8f5e9; padding: 10px; margin: 10px 0; border-radius: 3px; }
+                .chart-section { margin: 30px 0; }
+                .chart-item { border: 1px solid #ddd; padding: 15px; margin: 15px 0; border-radius: 5px; }
+                .chart-item img { max-width: 100%; height: auto; }
+                .timestamp { color: #666; font-size: 0.9em; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🤖 Automated Data Analysis Report</h1>
+                <p class="timestamp">Generated on: 2025-06-04 17:58:05</p>
+            </div>
+            
+            <h2>📋 Key Insights</h2>
+        <div class="insight">• Dataset contains 2,000 rows and 11 columns</div>
+<div class="insight">• Data types: 7 numeric, 4 categorical</div>
+<div class="insight">• sessions: mean=5.39, std=2.35</div>
+<div class="insight">• page_views: mean=18.79, std=15.83</div>
+<div class="insight">• bounce_rate: mean=0.32, std=0.18</div>
+<div class="insight">• date: 200 unique values</div>
+<div class="insight">• traffic_source: 6 unique values</div>
+<div class="insight">• device_type: 3 unique values</div>
+<h2>📊 Generated Visualizations</h2>
+
+                <div class="chart-item">
+                    <h3>Distribution analysis of sessions</h3>
+                    <p><strong>Type:</strong> distribution | <strong>Columns:</strong> sessions</p>
+                    <img src="..\charts\distribution_sessions.png" alt="Distribution analysis of sessions">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Distribution analysis of page_views</h3>
+                    <p><strong>Type:</strong> distribution | <strong>Columns:</strong> page_views</p>
+                    <img src="..\charts\distribution_page_views.png" alt="Distribution analysis of page_views">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Distribution analysis of bounce_rate</h3>
+                    <p><strong>Type:</strong> distribution | <strong>Columns:</strong> bounce_rate</p>
+                    <img src="..\charts\distribution_bounce_rate.png" alt="Distribution analysis of bounce_rate">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Distribution analysis of avg_session_duration</h3>
+                    <p><strong>Type:</strong> distribution | <strong>Columns:</strong> avg_session_duration</p>
+                    <img src="..\charts\distribution_avg_session_duration.png" alt="Distribution analysis of avg_session_duration">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Distribution comparison of numeric columns</h3>
+                    <p><strong>Type:</strong> multi_distribution | <strong>Columns:</strong> ['sessions', 'page_views', 'bounce_rate', 'avg_session_duration']</p>
+                    <img src="..\charts\multi_distribution.png" alt="Distribution comparison of numeric columns">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Category distribution of date</h3>
+                    <p><strong>Type:</strong> categorical | <strong>Columns:</strong> date</p>
+                    <img src="..\charts\categorical_date.png" alt="Category distribution of date">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Category distribution of traffic_source</h3>
+                    <p><strong>Type:</strong> categorical | <strong>Columns:</strong> traffic_source</p>
+                    <img src="..\charts\categorical_traffic_source.png" alt="Category distribution of traffic_source">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Category distribution of device_type</h3>
+                    <p><strong>Type:</strong> categorical | <strong>Columns:</strong> device_type</p>
+                    <img src="..\charts\categorical_device_type.png" alt="Category distribution of device_type">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Correlation analysis between numeric variables</h3>
+                    <p><strong>Type:</strong> correlation | <strong>Columns:</strong> ['sessions', 'page_views', 'bounce_rate', 'avg_session_duration', 'conversions', 'conversion_rate', 'revenue']</p>
+                    <img src="..\charts\correlation_heatmap.png" alt="Correlation analysis between numeric variables">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Scatter plot showing relationship between sessions and page_views</h3>
+                    <p><strong>Type:</strong> scatter | <strong>Columns:</strong> ['sessions', 'page_views']</p>
+                    <img src="..\charts\scatter_sessions_page_views.png" alt="Scatter plot showing relationship between sessions and page_views">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Scatter plot showing relationship between conversions and revenue</h3>
+                    <p><strong>Type:</strong> scatter | <strong>Columns:</strong> ['conversions', 'revenue']</p>
+                    <img src="..\charts\scatter_conversions_revenue.png" alt="Scatter plot showing relationship between conversions and revenue">
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Interactive scatter plot with hover details</h3>
+                    <p><strong>Type:</strong> interactive_scatter | <strong>Columns:</strong> ['sessions', 'page_views']</p>
+                    <p><a href="..\charts\interactive_scatter.html" target="_blank">View Interactive Chart</a></p>
+                </div>
+                
+                <div class="chart-item">
+                    <h3>Interactive histogram of sessions</h3>
+                    <p><strong>Type:</strong> interactive_histogram | <strong>Columns:</strong> sessions</p>
+                    <p><a href="..\charts\interactive_histogram.html" target="_blank">View Interactive Chart</a></p>
+                </div>
+                
+            <div class="header" style="margin-top: 40px;">
+                <h3>🎯 Summary</h3>
+                <p>This automated analysis identified key patterns in your data and generated relevant visualizations. 
+                Review the charts above to gain insights into your dataset's structure and relationships.</p>
+            </div>
+        </body>
+        </html>
+        

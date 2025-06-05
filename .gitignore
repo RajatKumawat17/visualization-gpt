@@ -19,7 +19,7 @@ venv/
 *.env
 
 # Output folders
-outputs/
+# outputs/
 !outputs/.gitkeep  # keep folder structure if needed
 
 # Sample data (if not tracked)
